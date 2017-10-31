@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hogwarts", "Hogwarts\Hogwarts.csproj", "{7B7A1DA9-721D-44AA-AFE1-030F507FDC80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hogwarts.Tests", "Hogwarts.Tests\Hogwarts.Tests.csproj", "{35F7FFCF-742A-408B-A434-78A8411F3519}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B7A1DA9-721D-44AA-AFE1-030F507FDC80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B7A1DA9-721D-44AA-AFE1-030F507FDC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B7A1DA9-721D-44AA-AFE1-030F507FDC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B7A1DA9-721D-44AA-AFE1-030F507FDC80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F7FFCF-742A-408B-A434-78A8411F3519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F7FFCF-742A-408B-A434-78A8411F3519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F7FFCF-742A-408B-A434-78A8411F3519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F7FFCF-742A-408B-A434-78A8411F3519}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
