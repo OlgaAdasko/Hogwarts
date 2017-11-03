@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c0a6cfcac9ff4d8a86701e8fdc537ad3" Name="Diagram1">
+        <EntityTypeShape EntityType="HogwartsModel.Houses" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HogwartsModel.HouseScores" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HogwartsModel.Quidditch" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HogwartsModel.Students" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HogwartsModel.StudentsProfile" Width="1.5" PointX="5.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HogwartsModel.Subjects" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HogwartsModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HogwartsModel.Teachers" Width="1.5" PointX="3.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HogwartsModel.Timetable" Width="1.5" PointX="6" PointY="5.625" IsExpanded="true" />
+        <AssociationConnector Association="HogwartsModel.FK_HouseScores_Houses" ManuallyRouted="false" />
+        <AssociationConnector Association="HogwartsModel.FK_Quidditch_Houses" ManuallyRouted="false" />
+        <AssociationConnector Association="HogwartsModel.FK_Quidditch_SecondHouse" ManuallyRouted="false" />
+        <AssociationConnector Association="HogwartsModel.FK_Students_Houses" ManuallyRouted="false" />
+        <AssociationConnector Association="HogwartsModel.FK_Timetable_Houses" ManuallyRouted="false" />
+        <AssociationConnector Association="HogwartsModel.FK_StudentsProfile_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="HogwartsModel.FK_Timetable_Subjects" ManuallyRouted="false" />
+        <AssociationConnector Association="HogwartsModel.FK_Timetable_Teachers" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
