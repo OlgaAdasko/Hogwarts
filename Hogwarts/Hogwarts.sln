@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hogwarts", "Hogwarts\Hogwar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hogwarts.Tests", "Hogwarts.Tests\Hogwarts.Tests.csproj", "{35F7FFCF-742A-408B-A434-78A8411F3519}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hogwarts.DAL", "Hogwarts.DAL\Hogwarts.DAL.csproj", "{75988949-C1D7-4813-B63D-8883601D6566}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{35F7FFCF-742A-408B-A434-78A8411F3519}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35F7FFCF-742A-408B-A434-78A8411F3519}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35F7FFCF-742A-408B-A434-78A8411F3519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75988949-C1D7-4813-B63D-8883601D6566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75988949-C1D7-4813-B63D-8883601D6566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75988949-C1D7-4813-B63D-8883601D6566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75988949-C1D7-4813-B63D-8883601D6566}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
